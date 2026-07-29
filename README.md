@@ -1,3 +1,6 @@
+Shellcode Obfuscation:
+
+
 # Single technique
 python3 SHORE.py -s "\xfc\xe8\x82\x00\x00\x00" -t xor
 
