@@ -12,7 +12,7 @@ python3 SHORE.py -s "\x31\xc0\x48\xbb..." -t rot,not -m mmap -o lin_payload.py
 
 
 
-*SHORE-v3.0*
+##SHORE-v3.0##
 
 # RC4 + printable (fileless delivery via printable string)
 python3 SHORE-3.0.py -f beacon.bin -t rc4,printable -o stage1.py
