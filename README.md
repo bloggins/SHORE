@@ -10,7 +10,7 @@ python3 SHORE.py -f shellcode.bin -t all -m ctypes -o staged_payload.py
 # Linux target
 python3 SHORE.py -s "\x31\xc0\x48\xbb..." -t rot,not -m mmap -o lin_payload.py
 
-
+________________________________________________________________________________________________
 
 ## SHORE-v3.0 ##
 
